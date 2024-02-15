@@ -1,0 +1,163 @@
+body{
+    padding: auto;
+    margin: auto;
+}
+/* Style for the navigation header */
+.navhead {
+    background-color: #a2a0a0; /* Background color */
+    padding: 20px;
+    border-bottom: 5px solid #cccccc; /* Bottom border */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.logo a img{
+    height: 90px;
+    width: 95px;
+    margin-left:auto 50px;
+
+}
+.contact{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  margin:auto 30px;
+ 
+}
+.phone a{
+   
+    color: #333; /* Change the text color */
+}
+
+
+.contact .mail,
+.contact .phone {
+    margin-bottom: 20px; /* Adjust the margin between sections */
+    text-align: center;
+}
+
+.contact h4 {
+    margin: 0; /* Remove default margin */
+    color:white;
+}
+
+.contact a {
+    text-decoration: none; /* Remove underline */
+    margin: 30px;
+    color:white;
+}
+
+
+
+.navbar{
+    background-color: #d6c0c0;
+   padding:10px 20px;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+  
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+
+  
+
+
+}
+
+.nav-menu li {
+    
+    margin-right: 20px;
+    
+}
+
+.nav-menu ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+  
+    
+}
+
+.nav-menu li a:hover {
+    background-color: #111;
+    color: #f9f9f9;
+}
+
+/* Styling for the dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d6c0c0;
+    min-width: 160px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+.dropdown .fa-caret-down {
+    margin-left: 5px; /* Adjust spacing between text and icon */
+}
+.navbar .enquiries_btn button {
+    background-color: #969696; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    float: right;
+    font-size: 16px;
+    margin: 4px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar .enquiries_btn button:hover{
+    background-color: #a2a0a0;
+    color: #000;
+}
+
+
+    .image-body h3{
+    background-image: url('https://www.bannerhealth.com/-/media/images/project/bh/hero-images/services/maternity/mother-and-baby.ashx');
+    height: 100px;
+    background-size:cover;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 80px; /* Adjust vertical position of the text */
+    font-size: 24px; /* Set font size of the text */
+    }
+
+.survey-container{
+    background-color: #f0c7c7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    width:100%;
+    margin-top: 10px;
+    
+}
+.bhado {
+    background-color: #d7bfef;
+    width: 50%;
+    margin: 10px auto;
+
+}
+.bhado .survey-p {
+    margin-top:0px;
+    padding: 10px;
+}
+
+
